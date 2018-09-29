@@ -6,25 +6,10 @@ from tony_cfg import tony_en as cfg
 
 def format_output(generatedoutput):
     ingredients = list(cfg_generator.flatten(generatedoutput))
-    logging.info("fixing percentage...")
-    for index,ingredient in enumerate(ingredients):
-        if "%" in ingredient: # vieze fix percentage
-            puur_index = index-1
-            ingredients[index]= ingredients[puur_index] + " " + ingredients[index]
-            ingredients.pop(puur_index)
-    logging.info("fixing crumble...")
-    for index,ingredient in enumerate(ingredients):
-        if ingredient == "crumble": # crumble can never be the first item
-            fruit_index = index-1
-            ingredients[index]= ingredients[fruit_index] + " " + "crumble"
-            ingredients.pop(fruit_index)
-    logging.info("Fixing duplicates...")
-    ingredients = list(dict.fromkeys(ingredients))
-    if len(ingredients) > 2:
-        smaak = '{} with {} and {}'.format(ingredients[0], ', '.join(ingredients[1:-1]), ingredients[-1])
-    else:
-        smaak = '{} with {}'.format(ingredients[0], " ".join(ingredients[1:]))
-    return smaak
+    logging.info("joining everything with spaces")
+    smaak = ' '.join(ingredients)
+    logging.info("removing space before comma")
+    return smaak.replace(" ,", ",")
 
 def generate_tony_flavours():
     ldg = cfg_generator.Grammar() # limited_edition_grammar

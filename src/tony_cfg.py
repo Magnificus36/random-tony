@@ -1,8 +1,9 @@
 tony_nl = """
 S -> LIMITED_EDITION
-LIMITED_EDITION -> CHOCOLADESOORT SMAKEN
-SMAKEN -> SMAAK | SMAAK SMAAK | SMAAK SMAAK SMAAK
-SMAAK -> FRUIT | FRUITS CRUMBLE | NOTEN | DRANK | SNOEPGOED | KRUIDEN | GROENTEN | OVERIG | RAAR
+LIMITED_EDITION -> CHOCOLADESOORT MET SMAKEN
+SMAKEN -> LAATSTESMAAK | SMAAK EN LAATSTESMAAK | SMAAK KOMMA SMAAK EN LAATSTESMAAK
+LAATSTESMAAK -> SMAAK | SMAAK | SMAAK | SMAAK | FRUITS CRUMBLE
+SMAAK -> FRUIT | NOTEN | DRANK | SNOEPGOED | KRUIDEN | GROENTEN | OVERIG | RAAR
 CRUMBLE -> crumble
 FRUIT -> sinaasappel | ananas | framboos | peer | banaan | kokos | kers | cranberry | mango | kiwi | citroen | limoen | yuzu | zwarte bes | abrikoos | rozijn | vijg | gember | bosbes | meloen
 FRUITS -> peren | bananen | kersen | cranberry | rabarber | appel
@@ -14,14 +15,18 @@ KRUIDEN -> zeezout | zwarte peper | chili | rozemarijn | anijs | bergamot | kane
 OVERIG ->   honing | coffeecrunch | stoofpeer | butterscotch | gepofte rijst | viooltjes | wasabi | rode curry | groene curry | jalapenopeper | balsamico | lavendel | rozenblaadjes 
 RAAR -> mayonaise | ketchup | soyasaus | bouillon | slagroom | zoute drop | zalmsnippers
 CHOCOLADESOORT -> melkchocolade | donkere melkchocolade | blonde chocolade | extra pure chocolade | pure chocolade | witte chocolade
+MET -> met
+EN -> en
+KOMMA -> ,
 """
 
 tony_en = """
 S -> LIMITED_EDITION
-LIMITED_EDITION -> CHOCOLATETYPE INGREDIENTS
+LIMITED_EDITION -> CHOCOLATETYPE WITH INGREDIENTS
 CHOCOLATETYPE -> milk chocolate | dark milk chocolate | blonde chocolate | extra dark chocolate | dark chocolate | white chocolate
-INGREDIENTS -> INGREDIENT | INGREDIENT INGREDIENT | INGREDIENT INGREDIENT INGREDIENT
-INGREDIENT -> FRUIT | FRUIT CRUMBLE | NUTS | DRINK | SWEET | SPICE | VEGETABLE | MISC | WEIRD
+INGREDIENTS -> LASTINGREDIENT | INGREDIENT AND LASTINGREDIENT | INGREDIENT COMMA INGREDIENT AND LASTINGREDIENT
+LASTINGREDIENT -> INGREDIENT | INGREDIENT | INGREDIENT | INGREDIENT | FRUIT CRUMBLE
+INGREDIENT -> FRUIT | NUTS | DRINK | SWEET | SPICE | VEGETABLE | MISC | WEIRD
 CRUMBLE -> crumble
 FRUIT -> orange | pineapple | raspberry | pear | banana | coconut | cherry | cranberry | mango | kiwi | lemon | lime | yuzu | black currant | apricot | raisin | figs | ginger | blueberry | melon | rhubarb
 NUTS -> hazelnuts | macadamias | walnuts | pecans | almonds | peanuts | cashews | pumpkin seeds | sunflower seeds | sesame seeds | pistachios
@@ -31,4 +36,7 @@ VEGETABLE -> cucumber | grated carrot | beet | nori | parsnip | pumpkin | soy be
 SPICE -> sea salt | black pepper | chili | rosemary | aniseed | bergamot | cinnamon | jasmine | madame jeanette | bell pepper | white pepper | pink pepper | laurel | fennel seeds | cardamom | clove | nutmeg
 MISC -> honey | coffeecrunch | butterscotch | wasabi | red curry | green curry | jalapeno peppers | balsamic vinegar | lavender | rose petals | cornflakes
 WEIRD -> mayonnaise | ketchup | soy sauce | broth | whipped cream | liquorice | salmon
+WITH -> with
+AND -> and
+COMMA -> ,
 """
