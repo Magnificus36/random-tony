@@ -24,7 +24,7 @@ white chocolate with green curry and pretzel
 dark chocolate with fudge
 ```
 
-If needed, you can change to the Dutch version of the grammar by substituting "tony_en" for "tony_nl" in `generate_flavours.py`.
+If needed, you can change to the Dutch version of the grammar by using the `generate_tony_flavours_nl` function instead of `generate_tony_flavours_en` in `generate_flavours.py`.
 
 ## Used sources
 Generating random sentences from a context free grammar - Eli Bendersky's website
