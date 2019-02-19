@@ -11,7 +11,7 @@ NOTEN -> hazelnoot | macadamia | walnoot | pecan | amandel | pinda | cashewnoot 
 DRANK -> whiskey | rum | amaretto | cola | koffie | cappuccino | groene thee | matcha | gin | tonic | rooibos
 SNOEPGOED -> marshmallows | marsepein | zoete popcorn | zoute popcorn | discodip | noga | merengue | karamel | carrotcake | pretzel | bastogne | toffee | knettersuiker | suikerspin | speculoos | crème brûlée | cookie dough | chocolate-chip | straciatella | cheesecake | stroopwafel | honingraat | fudge | haagse hopjes | pepernoten | pepermunt | negerzoen | winegums | praline
 GROENTEN -> komkommer | geraspte wortel | rode biet | nori | pastinaak | pompoen | soyaboontjes | mais
-KRUIDEN -> zeezout | zwarte peper | chili | rozemarijn | anijs | bergamot | kaneel | jasmijn | madame jeanette | rode peper | witte peper | laurier | venkelzaad | kardemom | kruidnagel | nootmuskaat 
+KRUIDEN -> zeezout | zwarte peper | chili | rozemarijn | anijs | bergamot | kaneel | jasmijn | madame jeanette | rode peper | witte peper | laurier | venkelzaad | kardemom | kruidnagel | nootmuskaat | geranium 
 OVERIG ->   honing | coffeecrunch | stoofpeer | butterscotch | gepofte rijst | viooltjes | wasabi | rode curry | groene curry | jalapenopeper | balsamico | lavendel | rozenblaadjes 
 RAAR -> mayonaise | ketchup | soyasaus | bouillon | slagroom | zoute drop | zalmsnippers
 CHOCOLADESOORT -> melkchocolade | donkere melkchocolade | blonde chocolade | extra pure chocolade | pure chocolade | witte chocolade
@@ -33,7 +33,7 @@ NUTS -> hazelnuts | macadamias | walnuts | pecans | almonds | peanuts | cashews 
 DRINK -> whiskey | rum | amaretto | cola | coffee | cappuccino | green tea |matcha | gin | tonic | rooibos
 SWEET -> marshmallows | marzipan | sweet popcorn | salty popcorn | nougat | merengue | caramel | carrotcake | pretzel | toffee | cotton candy | speculoos | crème brûlée | cookie dough | chocolate chips | straciatella | cheesecake | honeycomb | fudge | peppermint | winegums | praline
 VEGETABLE -> cucumber | grated carrot | beet | nori | parsnip | pumpkin | soy beans | corn
-SPICE -> sea salt | black pepper | chili | rosemary | aniseed | bergamot | cinnamon | jasmine | madame jeanette | bell pepper | white pepper | pink pepper | laurel | fennel seeds | cardamom | clove | nutmeg
+SPICE -> sea salt | black pepper | chili | rosemary | aniseed | bergamot | cinnamon | jasmine | madame jeanette | bell pepper | white pepper | pink pepper | laurel | fennel seeds | cardamom | clove | nutmeg | geranium 
 MISC -> honey | coffeecrunch | butterscotch | wasabi | red curry | green curry | jalapeno peppers | balsamic vinegar | lavender | rose petals | cornflakes
 WEIRD -> mayonnaise | ketchup | soy sauce | broth | whipped cream | liquorice | salmon
 WITH -> with
